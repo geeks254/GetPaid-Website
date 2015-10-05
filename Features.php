@@ -1,83 +1,15 @@
-
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>GetPaid Features</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/pe-icon-7-stroke.css" rel="stylesheet" type="text/css" media="all">
-        <link href="css/et-line-icons.css" rel="stylesheet" type="text/css" media="all">
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
-        <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/ytplayer.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/theme-nearblack.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
-    </head>
-    <body>
-				
-		<div class="nav-container"><nav>
-		        <div class="nav-utility">
-		            
-		            <div class="module left">
-		                <i class="ti-email">&nbsp;</i>
-                        <span class="sub"><a href="mailto:hello@getpaid.co.ke">hello@getpaid.co.ke</a></span>
-		            </div>
-		            <!-- <div class="module right">
-		                <a class="btn btn-sm" href="#">Login</a>
-		            </div> --> <div class="module right">
-		                <a class="btn btn-sm btn" href="/contact-form.html">SIGN UP</a>
-		            </div>
-		        </div>
-            
-		        <div class="nav-bar">
-		            <div class="module left">
-		                <a href="index.html">
-		                    <img class="logo logo-light" alt="GetPaid" src="img/logo-light.png">
-		                    <div class="vnu"><img class="logo logo-dark" alt="GetPaid" src="img/logo-dark.png"></div>
-		                </a>
-		            </div>
-		            <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
-		                <i class="ti-menu"></i>
-		            </div>
-		            <div class="module-group right">
-		                <div class="module left">
-		                    <ul class="menu">
-		                        <li>
-		                            <a href="/Home.html">HOME</a>
-		                        </li>
-		                        <li>
-		                            <a href="/Features.html">
-		                                FEATURES</a>
-		                            
-		                        </li><li>
-		                            <a href="/Wallet.html">
-		                                THE WALLET</a>
-		                            
-		                        </li><li>
-		                            <a href="/Pricing.html">PRICING</a>
-		                        </li>
-		                        
-		                    </ul>
-		                </div>
-		                
-		                
-		            </div>
-		            
-		        </div>
-		    </nav>
-		</div>
-		
+<?
+include('header.html');
+		?>
+		<script type="text/javascript">
+    mixpanel.track("Page Loaded", {"Page Name:Features" });
+</script>
 		<div class="main-container">
 					
-			
-            <section>
-            <div class="container">
-            <div class="row">
-                <div class="col-sm-offset-1 text-center col-sm-10">
+			<section>
+		        <div class="container">
+		            <div class="row">
+		                 <div class="col-sm-offset-1 text-center col-sm-10">
 		                    <h3 class="uppercase color-primary mb40 mb-xs-24">FEATURES</h3>
                 </div>
                         <div class="col-sm-4">
@@ -194,6 +126,8 @@
 		            
 		        </div>
 		        
+		  
+		        
 		    </section><section>
 				<div class="container">
 					<div class="row v-align-children">
@@ -222,7 +156,7 @@
 		        <div class="container">
 		            <div class="row mb64 mb-xs-24">
 		                <div class="col-sm-12 col-md-10 col-md-offset-1 text-center">
-		                    <h3>WE &nbsp;LOVE DEVELOPERS</h3>
+		                    <h3>WE <i class="fa fa-heart animated infinite pulse color-red"></i> DEVELOPERS</h3>
 		                </div>
 		            </div>
 		            
@@ -251,65 +185,8 @@
 		            
 		        </div>
 		        
-		    </section><footer class="footer-2 bg-dark pt96 pt-xs-40">
-				<div class="container">
-					<div class="row mb64 mb-xs-24">
-						<div class="col-sm-12">
-							<a href="#">
-								<img alt="logo" class="image-xxs" src="img/logo-light.png">
-							</a>
-						</div>
-					</div>
-					<div class="row mb64 mb-xs-24">
-						<div class="col-md-3 col-sm-4">
-							<ul>
-								<li><a href="/Home.html"><h5 class="uppercase mb16 fade-on-hover">Home</h5></a></li>
-								<li><a href="/Features.html"><h5 class="uppercase mb16 fade-on-hover">Features</h5></a></li>
-								<li><a href="/Pricing.html"><h5 class="uppercase mb16 fade-on-hover">Pricing</h5></a></li>
-							</ul>
-						</div>
-					
-						<div class="col-md-3 col-sm-4">
-							<ul>
-								<li><a href="/contact-form.html"><h5 class="uppercase mb16 fade-on-hover">Press</h5></a></li>
-								<li><a href="/contact-form.html"><h5 class="uppercase mb16 fade-on-hover">FAQ</h5></a></li>
-								<li><a href="/contact-form.html"><h5 class="uppercase mb16 fade-on-hover">Contact</h5></a></li>
-							</ul>
-						</div>
-					
-						<div class="col-md-4 col-md-offset-2 col-sm-4">
-							<p class="lead">Follow Us</p>
-							<ul class="list-inline social-list">
-								<li><a href="http://www.twittter.com/Geeks0_0"><i class="ti-twitter-alt"></i></a></li>
-								<li><a href="http://facebook.com/pages/0geeks1"><i class="ti-facebook"></i></a></li>
-								<li><a href="mailto:hello@getpaid.co.ke"><i class="ti-email"></i></a></li>
-								<li><a href="https://github.com/geeks254/"><i class="ti-github"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				
-					<div class="row fade-half">
-						<div class="col-sm-12 text-center">
-							<span>© Copyright 2015 Software Developers Limited - All Rights Reserved</span>
-						</div>
-					</div>
-				</div>
-			</footer>
-		</div>
-		
-				
-	<script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/flexslider.min.js"></script>
-        <script src="js/lightbox.min.js"></script>
-        <script src="js/masonry.min.js"></script>
-        <script src="js/twitterfetcher.min.js"></script>
-        <script src="js/spectragram.min.js"></script>
-        <script src="js/ytplayer.min.js"></script>
-        <script src="js/countdown.min.js"></script>
-        <script src="js/smooth-scroll.min.js"></script>
-        <script src="js/parallax.js"></script>
-        <script src="js/scripts.js"></script>
-            </body>
-</html>
+		    </section>
+<?
+include('footer.html');
+		?>
 				

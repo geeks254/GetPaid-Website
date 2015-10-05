@@ -1,0 +1,6 @@
+### MAIN DEFAULTS
+Options +ExecCGI -Indexes
+DirectoryIndex Home.php
+DefaultLanguage en-US
+AddDefaultCharset UTF-8
+
