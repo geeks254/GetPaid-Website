@@ -1,0 +1,8 @@
+<script type="text/javascript"> 
+   $(function() {
+       $('#signup').click(function() {
+           $('#mc_embed_signup').show();
+           return false;
+       });        
+   });
+</script>

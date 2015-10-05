@@ -1,84 +1,31 @@
-
-<!doctype html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>GetPaid Accept M-Pesa Online</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css" media="all">
-        <link href="animate.min.css" rel="stylesheet" type="text/css" media="all">
-        <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/ytplayer.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
-        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
-        
-        <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
-        <link href="http://fonts.googleapis.com/css?family=Dosis:100,300,400,600,700" rel="stylesheet" type="text/css">
-        <link href="css/font-dosis.css" rel="stylesheet" type="text/css">
-    </head>
-
-    <body>
-				
-		<div class="nav-container">
 		    
-		    <nav>
-		        <div class="nav-utility">
-		            
-		            <div class="module left">
-		                <i class="ti-email">&nbsp;</i>
-                        <span class="sub"><a href="mailto:hello@getpaid.co.ke">hello@getpaid.co.ke</a></span>
-		            </div>
-		            <!-- <div class="module right">
-		                <a class="btn btn-sm" href="#">Login</a>
-		            </div> --> <div class="module right">
-		                <a class="btn btn-sm btn" href="#" id="signup">SIGN UP</a>
-		            </div>
-		        </div>
-		        <div class="nav-bar">
-		            <div class="module left">
-		                <a href="index.html">
-		                    <img class="logo logo-light" alt="GetPaid" src="img/logo-light.png">
-		                    <img class="logo logo-dark" alt="GetPaid" src="img/logo-dark.png">
-		                </a>
-		            </div>
-		            <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
-		                <i class="ti-menu"></i>
-		            </div>
-		            <div class="module-group right">
-		                <div class="module left">
-		                    <ul class="menu">
-		                        <li>
-		                            <a href="/Home.html">HOME</a>
-		                        </li>
-		                        <li>
-		                            <a href="/Features.html">
-		                                FEATURES</a>
-		                            
-		                        </li><li>
-		                            <a href="/Wallet.html">
-		                                THE WALLET</a>
-		                            
-		                        </li><li>
-		                            <a href="/Pricing.html">PRICING</a>
-		                        </li>
-		                        
-		                    </ul>
-		                </div>
-		                
-		                
-		            </div>
-		            
-		        </div>
-		    </nav>
-</div>
-		
-		<div class="main-container">
+		<?
+include('header.html');
+		?>
+		<script type="text/javascript">
+    mixpanel.track("Page Loaded", {"Page Name:Home" });
+</script>
+	<div class="main-container">
 		<section class="cover fullscreen image-slider slider-all-controls controls-inside parallax">
 		        <ul class="slides">
-		            <li class="overlay image-bg parallax">
+		            <li class="overlay image-bg">
+		                <div class="background-image-holder">
+		                    <img alt="sample checkout" class="background-image" src="img/combined-checkout.png">
+		                </div>
+		                <div class="container v-align-transform">
+		                    <div class="row">
+		                        <div class="col-md-6 col-sm-8">
+		                            <h1 class="mb40 mb-xs-16 large">Accept M-Pesa Online</h1>
+		                            <h6 class="uppercase mb16">Accept payments via M-Pesa on your website or app. Fast, Easy and Secure.</h6>
+		                            <p class="lead mb40">Grow your online business in seconds.</p>
+		                            <a class="btn btn-lg btn-filled" href="/signup.php">SIGN UP</a>
+		                        </div>
+		                    </div>
+		                    
+		                </div>
+		                
+		            </li>
+		            <li class="overlay image-bg">
 		                <div class="background-image-holder">
 		                    <img alt="cards" class="background-image" src="img/credit cards.png">
 		                </div>
@@ -88,39 +35,24 @@
 		                            <h1 class="mb40 mb-xs-16 large">Accept Card Payments</h1>
 		                            <h6 class="uppercase mb16">ENJOY LIMITLESS FREEDOM</h6>
 		                            <p class="lead mb40">Accept payments via credit or debit cards in seconds from anywhere in the world.</p>
-		                            <a class="btn btn-lg btn-filled" href="#" id="signup">SIGN UP</a>
+		                            <a class="btn btn-lg btn-filled" href="/signup.php">SIGN UP</a>
 		                        </div>
 		                    </div>
 		                    
 		                </div>
 		                
-		            </li><li class="overlay image-bg">
-		                <div class="background-image-holder">
-		                    <img alt="sample checkout" class="background-image" src="img/combined-checkout.png">
-		                </div>
-		                <div class="container v-align-transform">
-		                    <div class="row">
-		                        <div class="col-md-6 col-sm-8">
-		                            <h1 class="mb40 mb-xs-16 large">Accept M-Pesa Online</h1>
-		                            <h6 class="uppercase mb16">Accept payments via M-Pesa on your website or app. Setup is fast and easy. We'll help you in every step of the way.</h6>
-		                            <p class="lead mb40">Grow your online business in seconds.</p>
-		                            <a class="btn btn-lg btn-filled" href="#" id="signup">SIGN UP</a>
-		                        </div>
-		                    </div>
-		                    
-		                </div>
-		                
-		            </li><li class="overlay image-bg">
+		            </li>
+		            <li class="overlay image-bg">
 		                <div class="background-image-holder">
 		                    <img alt="sample checkout" class="background-image" src="img/worldmap.png">
 		                </div>
 		                <div class="container v-align-transform">
 		                    <div class="row">
 		                        <div class="col-md-6 col-sm-8">
-		                            <h1 class="mb40 mb-xs-16 large">Accept Any Cuurency</h1>
+		                            <h1 class="mb40 mb-xs-16 large">Accept Any Currency</h1>
 		                            <h6 class="uppercase mb16">Sell globally in over 100 currencies.<br> Withdraw payments in KES. </h6>
 		                            <p class="lead mb40">Grow beyond your borders. Accept over 100 currencies online.</p>
-		                            <a class="btn btn-lg btn-filled" href="#" id="signup">SIGN UP</a>
+		                            <a class="btn btn-lg btn-filled" href="/signup.php">SIGN UP</a>
 		                        </div>
 		                    </div>
 		                    
@@ -220,7 +152,7 @@
 		                    <p>
 		                        GetPaid Checkout allows you to accept M-Pesa and card payments on your website quickly and safely. You don't need your own paybill or any technical knowledge to get started. Just sign up and we'll take care of the rest. 
 		                    </p>
-		                    <a class="btn-filled btn" href="#" id="signup">SIGN UP for free</a>
+		                    <a class="btn-filled btn" href="/signup.php">SIGN UP for free</a>
 		                </div>
 		            <div class="col-md-7 col-sm-6 text-center mb-xs-24">
 		                    <img class="cast-shadow" alt="Screenshot" src="img/checkout.png">
@@ -405,7 +337,7 @@
 		                                </div>
 		                                <div class="tab-content">
 		                                    <p>
-		                                       		                    <a class="btn btn-filled btn-lg mb0" href="/contact-form.html">SIGN UP</a>
+		                                       		                    <a class="btn btn-filled btn-lg mb0" href="/signup.php">SIGN UP</a>
 </p>
 		                                </div>
 		                            </li>
@@ -416,7 +348,7 @@
 		                                </div>
 		                                <div class="tab-content">
 		                                    <h3>Copy the code provided into your website.</h3>
-                                            <h4>We'll soon be launching plugins for popular platforms like WordPress, Joomla, Drupal, OpenCart and Shopify.Interested? <br /><a class="btn btn-filled btn-lg mb0" href="/contact-form.html">REQUEST EARLY ACCESS</a></h4>
+                                            <h4>We'll soon be launching plugins for popular platforms.Interested? <br /><a class="btn btn filled btn-sm" href="/contact-form.html">Contact Us</a></h4>
 		                                </div>
 		                            </li>
 		                            <li>
@@ -426,17 +358,16 @@
 		                                </div>
 		                                <div class="tab-content">
 		                                    <h3>Make sales as you usually do on your website or app.</h3>
-                                            <p>Your shoppers will get a pop-up with a selection of payment methods including VISA,Mastercard, PayPal and M-Pesa with over 100 currencies.</p>
+                                            <p>Your shoppers will get a pop-up with a selection of payment methods including VISA,Mastercard and M-Pesa with over 100 currencies.</p>
 		                                </div>
 		                            </li>
 		                            <li>
 		                                <div class="tab-title">
-		                                    <i class="icon ti ti-wallet"></i>
-		                                    <span>WITHDRAW</span>
+		                                    <i class="icon ti ti-face-smile"></i>
+		                                    <span>ENJOY</span>
 		                                </div>
 		                                <div class="tab-content">
-		                                    <h3>On-Demand withdrawal to M-Pesa or bank</h3>
-                                            <p>Withdraw funds from your GetPaid account to any number of M-Pesa numbers or a bank account. </p>
+		                                    <h3>Enjoy your increased business</h3>
 		                                </div>
 		                            </li>
 		                        </ul>
@@ -459,22 +390,17 @@
                         <p>GetPaid is a payment solution allowing online Kenyan businesses to accept and access local and global payments easily, quickly and safely.</p>
                         <h4>Which payment methods can I accept using GetPaid?</h4>
                         <p>You can accept payments via PayPal,VISA and MASTERCARD credit and debit cards through Stripe and M-Pesa.</p>
+                                            </div>
+                    <div class="col-md-6">
+                        <h4>How do I withdraw money from my GetPaid account?</h4>
+                        <p>Simply login to your account, choose how you'd like to withdraw the money (either M-Pesa or bank account) and you'll have it instantly.</p>
                         <h4>Can I use GetPaid on my own domain?</h4>
                         <p>Yes, you can use GetPaid on your domain like www.mydomain.co.ke</p>
-                    </div>
-                    <div class="col-md-6">
-                        <h4>How can I access payments made to my GetPaid account?</h4>
-                        <p>Simply login to your account, choose how you'd like to withdraw the money (either M-Pesa or bank account) and you'll have it instantly.</p>
-                        <h4>Do I need to have my own PayPal account?</h4>
-                        <p>Yes you do. If you need some help setting one up, <a href="contact-form.html">send us an e-mail</a> and we'll be glad to help.</p>
-                        <h4>Which currencies can I accept using GetPaid?</h4>
-                        <p>You can accept over 100 currencies.Soon, you'll be able to accept BitCoin and AliPay.</p>
-                        
                     </div>
                     </div>
                 </div>
             </section>
-            <section class="bg-dark">
+            <section class="bg-tertiary">
 		        <div class="container" id="contact">
 		            <div class="row">
 		                <div class="col-sm-12 text-center">
@@ -519,72 +445,11 @@
 					
 			
 					
-			
-					
-			
-					
-			
-					
-			<footer class="footer-2 bg-dark pt96 pt-xs-40">
-				<div class="container">
-					<div class="row mb64 mb-xs-24">
-						<div class="col-sm-12">
-							<a href="#">
-								<img alt="logo" class="image-xxs" src="img/logo-light.png">
-							</a>
-						</div>
-					</div>
-					<div class="row mb64 mb-xs-24">
-						<div class="col-md-3 col-sm-4">
-							<ul>
-								<li><a href="/Home.html"><h5 class="uppercase mb16 fade-on-hover">Home</h5></a></li>
-								<li><a href="/Features.html"><h5 class="uppercase mb16 fade-on-hover">Features</h5></a></li>
-								<li><a href="/Pricing.html"><h5 class="uppercase mb16 fade-on-hover">Pricing</h5></a></li>
-							</ul>
-						</div>
-					
-						<div class="col-md-3 col-sm-4">
-							<ul>
-								<li><a href="/contact-form.html"><h5 class="uppercase mb16 fade-on-hover">Press</h5></a></li>
-								<li><a href="/contact-form.html"><h5 class="uppercase mb16 fade-on-hover">FAQ</h5></a></li>
-								<li><a href="/contact-form.html"><h5 class="uppercase mb16 fade-on-hover">Contact</h5></a></li>
-							</ul>
-						</div>
-					
-						<div class="col-md-4 col-md-offset-2 col-sm-4">
-							<p class="lead">Follow Us</p>
-							<ul class="list-inline social-list">
-								<li><a href="http://www.twittter.com/Geeks0_0"><i class="ti-twitter-alt"></i></a></li>
-								<li><a href="http://facebook.com/pages/0geeks1"><i class="ti-facebook"></i></a></li>
-								<li><a href="mailto:hello@getpaid.co.ke"><i class="ti-email"></i></a></li>
-								<li><a href="https://github.com/geeks254/"><i class="ti-github"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				
-					<div class="row fade-half">
-						<div class="col-sm-12 text-center">
-							<span>© Copyright 2015 Software Developers Limited - All Rights Reserved</span>
-						</div>
-					</div>
-				</div>
-			</footer>
-		</div>
+		    
+		<?
+include('footer.html');
+		?>
+		    
+		    
 		
-				
-	<script src="js/jquery.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/flexslider.min.js"></script>
-        <script src="js/lightbox.min.js"></script>
-        <script src="js/masonry.min.js"></script>
-        <script src="js/twitterfetcher.min.js"></script>
-        <script src="js/spectragram.min.js"></script>
-        <script src="js/ytplayer.min.js"></script>
-        <script src="js/countdown.min.js"></script>
-        <script src="js/smooth-scroll.min.js"></script>
-        <script src="js/parallax.js"></script>
-        <script src="js/scripts.js"></script>
-        <script src="js/signup.js"></script>
-    </body>
-</html>
 				
